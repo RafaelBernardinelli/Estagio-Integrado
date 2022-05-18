@@ -1,0 +1,16 @@
+<meta charset="utd-8">
+
+<script>
+
+    var gasolina = parseFloat(prompt("Qual valor da gasolina na sua cidade?"));
+    var alcool = parseFloat(prompt("Qual valor da alcool na sua cidade?"));
+    var resultado = (alcool/gasolina) * 100;
+    resultado = resultado.toFixed();
+    if(resultado < 70){
+        document.write("O interessante é abastecer com Alcool " + "<br>" + resultado + " %");
+    }
+    else {
+        document.write("O interessante é abastecer com Gasolina " + "<br>" + resultado + " %");
+    }
+
+</script>
