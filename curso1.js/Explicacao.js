@@ -63,3 +63,5 @@ const inputMinusculo = input.toLowerCase();
 //Tipo bolean
 
 console.log(primeiroNumero === segundoNumero);
+
+//typeaf = tipo de dado guardado na variavel    
